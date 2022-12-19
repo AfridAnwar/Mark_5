@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog -2</title>
+    <link rel="stylesheet" href="./Css/style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="nav-desktop-container">
+        <h2 class="container-heading">Iam Afrid Anwar</h2>
+        <ul class="nav-menu">
+          <li class="container-list-inline">
+            <a href="Intro-website.html" class="container-list">Home</a>
+          </li>
+          <li class="container-list-inline">
+            <a href="project.html" class="container-list">Projects</a>
+          </li>
+          <li class="container-list-inline">
+            <a href="blogs.html" class="container-list active">Blogs</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+
+      <div class="mobile-backdrop"></div>
+    
+    </header>
+
+    <div class="hero">
+      <img
+        class="hero-img image-blog"
+        src="images/Dall-e.webp"
+        alt=""
+      />
+        <caption>Dall-E, I want a photo of a developer sitting at a desk with his head exploding while having a chat conversation on a desktop computer with an artificial intelligence algorithm.</caption>
+      <h2 class="hero-heading">
+        About <span class="inverted-heading"> Afrid </span>
+      </h2>
+    </div>
+    <article class="dummyblog container ow">
+      <p>
+        Every so often, I find that the links I save to read later fall into natural groups or patterns that reveal common threads of interest. The past couple of weeks have produced a lot of thoughts about ChatGPT, an AI-powered interface that responds to requests in a chat-like exchange. Sorta like a “Hey Siri” request, but in a Discord channel.
+      </p>
+      <h2>A Conversation With ChatGPT (Matthias Ott) —</h2>
+      <p>
+        Matthias has a conversation with ChatGPT about typography that delves into deeply theoretical thoughts on design process. My favorite is in response to whether designers should learn to code: “Ultimately, whether or not designers should learn to code is a decision that each individual designer must make for themselves, based on their own goals and circumstances. Some designers may benefit from learning to code, while others may be better served by focusing on design principles and concepts.”
+      </p>
+      <h2>They were supposed to replace the creative jobs last (Dave Rupert)— </h2>
+      <p>
+        “As interesting a future this creates, I’m a member of an old caste of people that still believes massive gains don’t come without realized costs; or more explicitly, electricity isn’t the only cost. What if the cost we’re paying is our perception of reality itself? It’s increasingly likely that the next thing you read or watch is the product of a content extruder.”
+      </p>
+    </article>
+
+    <footer class="container-footer">
+      <div class="container-heading">Footer</div>
+      <ul class="container-list">
+        <li class="container-list-inline">
+          <a class="container-list" href="#">About</a>
+        </li>
+        <li class="container-list-inline">
+          <a class="container-list" href="#">Contact : +966 598877123</a>
+        </li>
+      </ul>
+    </footer>
+    <script>
+      const hamburgerMenu = document.querySelector(".hamburger");
+      const menu = document.querySelector(".nav-menu");
+      hamburgerMenu.addEventListener("click", () => {
+        hamburgerMenu.classList.toggle("active");
+
+        menu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

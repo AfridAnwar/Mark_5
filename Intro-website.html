@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <title>Mark - 3</title>
+    <link rel="stylesheet" href="./Css/style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="nav-desktop-container">
+        <h2 class="container-heading">I am Afrid Anwar</h2>
+        <ul class="nav-menu">
+          <li class="container-list-inline">
+            <a href="Intro-website.html" class="container-list active">Home</a>
+          </li>
+          <li class="container-list-inline">
+            <a href="project.html" class="container-list">Projects</a>
+          </li>
+          <li class="container-list-inline">
+            <a href="blogs.html" class="container-list">Blogs</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+
+      <div class="mobile-backdrop"></div>
+      
+    </header>
+
+    <div class="hero">
+      <img class="hero-img" src="images/undraw_hacker_mind_-6-y85.svg" alt="" />
+      <h2 class="hero-heading">
+        Afrid <span class="inverted-heading">The web developer </span>
+      </h2>
+    </div>
+
+    <section class="container ow">
+      <div class="section-heading">
+        <h2 class="spacer">Technologies</h2>
+        <p class="spacer">
+          I am familiar with CSS3 HTML5 Javascript.
+        </p>
+      </div>
+    </section>
+
+    <section class="container w">
+      <div class="section-heading">
+        <h2 class="spacer">Projects</h2>
+        <p class="spacer">
+          Click the link below to see my online hosted projects
+        </p>
+      </div>
+      <div class="button">
+        <a href="project.html" class="link link-primary">Projects</a>
+      </div>
+    </section>
+
+    <section class="container ow">
+      <div class="section-heading">
+        <h2 class="spacer">Blogs</h2>
+        <p class="spacer">
+          I am just developing my skill ,and also documenting my learning
+        </p>
+        <a class="link link-secondary" href="#"> Read blogs </a>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="container-footer">
+      <h2>Footer</h2>
+      <ul class="link-flex">
+        <li><a href="#">About</a></li>
+        <li>Contacts :+966 598877123</li>
+      </ul>
+    </footer>
+    <script>
+      const hamburgerMenu = document.querySelector(".hamburger");
+      const menu = document.querySelector(".nav-menu");
+      hamburgerMenu.addEventListener("click", () => {
+        hamburgerMenu.classList.toggle("active");
+
+        menu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
