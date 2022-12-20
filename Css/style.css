@@ -168,6 +168,9 @@ body {
 .spacer{
   margin-bottom: 10px;
 }
+.para{
+  line-height: 1.4;
+}
 /* section part 2 */
 
 .w {
