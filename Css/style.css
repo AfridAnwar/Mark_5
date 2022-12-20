@@ -57,6 +57,7 @@ body {
 .hamburger {
   display: none;
   cursor: pointer;
+
 }
 .bar {
   display: block;
@@ -68,7 +69,9 @@ body {
   background: #ffffff;
   border-radius: 5px;
 }
-
+/* .nav-menu :active{
+  color: red;
+} */
 /* mobile design 800px*/
 @media (max-width: 800px) {
   .nav-menu {
